@@ -1,0 +1,430 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+}
+
+/*-----------Header----------*/
+
+header {
+
+    background-color: #ED4C5C;
+    position:absolute;
+    width:100%;
+    height:500px;
+    left:0px;
+    top:0px;
+}
+
+.white-h1 {
+
+    color:#ffffff;
+    position: absolute; 
+    width: 445px;
+    height: 107px;
+    left: 165px;
+    top: 122px;
+
+    font-family:Lato;
+    font-style:normal;
+    font-weight: 600;
+    font-size:36px;
+    line-height:43px;
+}
+
+.white-p {
+    color:#ffffff;
+    position: absolute;
+    width: 445px;
+    height: 64px;
+    left: 165px;
+    top: 253px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+.main-logo {
+    display:inline-block;
+}
+
+.logo-ps {
+
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 168px;
+    top: 359px;
+}
+
+.logo-as {
+
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 220px;
+    top: 359px;
+}
+
+.logo-win {
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 273px;
+    top: 361px;
+}
+
+.main-photo {
+
+    position: absolute;
+    width: 533px;
+    height: 311px;
+    left: 691px;
+    top: 94px;
+}
+
+/*----------main-------------*/
+
+main {
+
+    background-color: #ffffff;
+    position:absolute;
+    width:100%;
+    height:500px;
+    left:0px;
+    top:500px;
+}
+
+.black-h2 {
+    position: absolute;
+    width:445px;
+    height:107px;
+    top:117px;
+    left:176px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color:#000;
+}
+
+.black-p {
+    position: absolute;
+    width:434px;
+    height:64px;
+    top: 213px;
+    left:176px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000;
+}
+
+.first-name {
+
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left: 735px;
+    top: 117px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    outline:none;
+}
+
+.last-name {
+
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left: 1020px;
+    top: 117px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    outline:none;
+}
+
+.phone-number {
+
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 201px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    outline:none;
+}
+
+
+.form-services {
+
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    left: 735px;
+    top: 285px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding:21px 0 20px 31px;
+    color:rgba(19, 39, 67, 0.5);
+    outline:none;
+}
+
+::placeholder {
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding:21px 0 20px 31px;
+}
+
+button {
+
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 735px;
+    top: 372px;
+    background-color: #ED4C5C;
+    color:#ffff;
+    border-radius: 6px;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+/*----------footer------------*/
+
+footer {
+
+    position: absolute;
+    width: 100%;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
+    background-color: #FAFAFA;
+}
+
+.block-one {
+
+    position: absolute;
+    width: 259px;
+    height: 264px;
+    left: 161px;
+    top: 85px;
+}
+
+.address-text {
+
+    position: absolute;
+    width: 65px;
+    height: 22px;
+    left:5px;
+    top:0px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.address-info {
+
+    position: absolute;
+    width: 254px;
+    height: 54px;
+    left: 5px;
+    top: 55px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+
+}
+
+.copyright {
+
+    position: absolute;
+    width: 155px;
+    height: 14px;
+    left:0px;
+    top: 250px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+
+.block-two {
+    position: absolute;
+    width: 254px;  
+    height: 164px;
+    left: 450px;
+    top: 85px;
+}
+
+.services-text {
+
+    position: absolute;
+    width: 67px;
+    height: 22px;
+    left: 40px;
+    top: 0px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+
+ul {
+
+    position: absolute;
+    width: 254px;
+    height: 114px;
+    left: 0px;
+    top: 50px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
+    list-style-type:none;
+}
+
+.block-three {
+
+    position: absolute;
+    width: 122px;
+    height: 128px;
+    left: 735px;
+    top: 85px;
+}
+
+.touch-text {
+
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.touch-email {
+
+    position: absolute;
+    width: 122px;
+    height: 14px;
+    left: 0px;
+    top: 55px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+
+.touch-number {
+
+    position: absolute;
+    width: 96px;
+    height: 14px;
+    left: 0px;
+    top: 80px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #121212;
+}
+
+.touch-icon {
+
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 66px;
+    height: 14px;
+    left: 0px;
+    top: 120px;
+}
+
+.block-four {
+
+    position: absolute;
+    width: 96px;
+    height: 22px;
+    left: 1022px;
+    top: 85px;
+    
+}
+
+.support-text {
+
+    position: absolute;
+    width: 96px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+
+.img-card {
+
+    position: absolute;
+    width: 216px;
+    height: 31px;
+    left: 0px;
+    top: 55px;
+}
