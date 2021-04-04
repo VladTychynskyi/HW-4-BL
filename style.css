@@ -337,7 +337,7 @@ ul {
 .touch-text {
 
     position: absolute;
-    /*width:auto;*/
+    width:101px;
     height: 22px;
     left: 0px;
     top: 0px;
