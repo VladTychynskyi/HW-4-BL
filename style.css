@@ -337,7 +337,7 @@ ul {
 .touch-text {
 
     position: absolute;
-    width: 101px;
+    width:auto;
     height: 22px;
     left: 0px;
     top: 0px;
@@ -407,7 +407,7 @@ ul {
 .support-text {
 
     position: absolute;
-    width: auto;
+    width: 96px;
     height: 22px;
     left: 0px;
     top: 0px;
@@ -416,14 +416,14 @@ ul {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 22px;
+    /*line-height: 22px;*/
     color: #101010;
 }
 
 .img-card {
 
-    position: absolute;
-    width:auto;
+    position:absolute;
+    width:216px;
     height: 31px;
     left: 0px;
     top: 55px;
