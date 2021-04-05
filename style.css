@@ -224,6 +224,7 @@ footer {
     background-color: #FAFAFA;
 }
 
+
 .block-one {
 
     position: absolute;
@@ -325,12 +326,11 @@ ul {
     list-style-type:none;
 }
 
+
 .block-three {
 
     position: absolute;
-    max-width: 1920px;
-    width: 100%;
-    margin:0 auto;
+    width: 122px;
     height: 128px;
     left: 735px;
     top: 85px;
@@ -396,6 +396,7 @@ ul {
     top: 120px;
 }
 
+
 .block-four {
 
     position: absolute;
@@ -418,7 +419,7 @@ ul {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    /*line-height: 22px;*/
+    line-height: 22px;
     color: #101010;
 }
 
@@ -430,3 +431,4 @@ ul {
     left: 0px;
     top: 55px;
 }
+
