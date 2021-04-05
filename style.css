@@ -222,8 +222,10 @@ footer {
     left: 0px;
     top: 1045px;
     background-color: #FAFAFA;
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
 }
-
 
 .block-one {
 
@@ -231,24 +233,34 @@ footer {
     width: 259px;
     height: 264px;
     left: 161px;
+    top: 85px; 
+}
+
+.block-two {
+
+    position: absolute;
+    width: 254px;
+    height: 164px;
+    left: 450px;
+    top: 85px; 
+}
+
+.block-three {
+
+    position: absolute;
+    width: 122px;
+    height: 128px;
+    left: 734px;
     top: 85px;
 }
 
-.address-text {
+.block-four {
 
     position: absolute;
-    width: 65px;
+    width: 96px;
     height: 22px;
-    left:5px;
-    top:0px;
-
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #101010;
+    left: 1022px;
+    top: 85px
 }
 
 .address-info {
@@ -256,16 +268,15 @@ footer {
     position: absolute;
     width: 254px;
     height: 54px;
-    left: 5px;
+    left: 0px;
     top: 55px;
-
+    
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 150%;
     color: #101010;
-
 }
 
 .copyright {
@@ -273,9 +284,9 @@ footer {
     position: absolute;
     width: 155px;
     height: 14px;
-    left:0px;
+    left: 0px;
     top: 250px;
-
+    
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -284,83 +295,35 @@ footer {
     color: #101010;
 }
 
-.block-two {
-    position: absolute;
-    width: 254px;  
-    height: 164px;
-    left: 450px;
-    top: 85px;
-}
+li {
 
-.services-text {
-
-    position: absolute;
-    width: 67px;
-    height: 22px;
-    left: 40px;
-    top: 0px;
-    
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    color: #101010;
+    list-style-type:none;
 }
 
 ul {
 
     position: absolute;
-    width: 254px;
-    height: 114px;
-    left: 0px;
-    top: 50px;
+    width:254px;
+    height:114px;
+    top: 55px;
+    left:-40px;
     
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 160%;
-    text-transform: capitalize;
-    color: #000000;
-    list-style-type:none;
-}
-
-
-.block-three {
-
-    position: absolute;
-    width: 122px;
-    height: 128px;
-    left: 735px;
-    top: 85px;
-}
-
-.touch-text {
-
-    position: absolute;
-    width:101px;
-    height: 22px;
-    left: 0px;
-    top: 0px;
-    
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
     color: #101010;
 }
 
 .touch-email {
 
-    position: absolute;
-    width: 122px;
-    height: 14px;
-    left: 0px;
-    top: 55px;
-    
+    position:absolute;
+    width:122px;
+    height:14px;
+    left:0px;
+    top:55px;
+
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -370,41 +333,29 @@ ul {
 }
 
 .touch-number {
-
-    position: absolute;
-    width: 96px;
-    height: 14px;
-    left: 0px;
-    top: 80px;
     
+    position:absolute;
+    width:96px;
+    height:12px;
+    left:0px;
+    top:80px;
+
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    color: #121212;
+    color: #101010;
 }
 
-.touch-icon {
+.icon {
 
-    display: flex;
+    position: absolute;
+    width:66px;
+    height:14px;
+    top:120px;
+    display:flex;
     justify-content: space-between;
-    position: absolute;
-    width: 66px;
-    height: 14px;
-    left: 0px;
-    top: 120px;
-}
-
-
-.block-four {
-
-    position: absolute;
-    width: 96px;
-    height: 22px;
-    left: 1022px;
-    top: 85px;
-    
 }
 
 .support-text {
@@ -412,8 +363,6 @@ ul {
     position: absolute;
     width: 96px;
     height: 22px;
-    left: 0px;
-    top: 0px;
     
     font-family: Lato;
     font-style: normal;
@@ -423,12 +372,10 @@ ul {
     color: #101010;
 }
 
-.img-card {
+.icon-card {
 
-    position:absolute;
-    width:216px;
+    position: absolute;
+    width: 216px;
     height: 31px;
-    left: 0px;
-    top: 55px;
+    top:55px;
 }
-
