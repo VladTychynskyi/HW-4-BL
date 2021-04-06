@@ -379,3 +379,20 @@ ul {
     height: 31px;
     top:55px;
 }
+
+#select-services {
+    width: 540px;
+    height: 60px;
+    padding-left: 31px;
+    padding-right: 31px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    color: rgba(19, 39, 67, 0.5);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(./image/arrow.svg);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 25px;
