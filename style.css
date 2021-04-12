@@ -4,8 +4,24 @@ body {
     font-family: Lato;
 }
 
-/*-----------Header----------*/
+p {
 
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+input {
+
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    outline:none;
+}
+/*-----------Header----------*/
 header {
 
     background-color: #ED4C5C;
@@ -39,13 +55,6 @@ header {
     height: 64px;
     left: 165px;
     top: 253px;
-
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 140%;
-    text-align: justify;
 }
 
 .main-logo {
@@ -87,9 +96,7 @@ header {
     left: 691px;
     top: 94px;
 }
-
 /*----------main-------------*/
-
 main {
 
     background-color: #ffffff;
@@ -121,13 +128,6 @@ main {
     height:64px;
     top: 213px;
     left:176px;
-
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 140%;
-    text-align: justify;
     color: #000;
 }
 
@@ -138,10 +138,6 @@ main {
     height: 60px;
     left: 735px;
     top: 117px;
-    border: 1px solid #333333;
-    box-sizing: border-box;
-    border-radius: 6px;
-    outline:none;
 }
 
 .last-name {
@@ -151,10 +147,6 @@ main {
     height: 60px;
     left: 1020px;
     top: 117px;
-    border: 1px solid #333333;
-    box-sizing: border-box;
-    border-radius: 6px;
-    outline:none;
 }
 
 .phone-number {
@@ -164,12 +156,7 @@ main {
     height: 60px;
     left: 735px;
     top: 201px;
-    border: 1px solid #333333;
-    box-sizing: border-box;
-    border-radius: 6px;
-    outline:none;
 }
-
 
 .form-services {
 
@@ -211,9 +198,7 @@ button {
     box-sizing: border-box;
     cursor: pointer;
 }
-
 /*----------footer------------*/
-
 footer {
 
     position: absolute;
@@ -270,10 +255,6 @@ footer {
     height: 54px;
     left: 0px;
     top: 55px;
-    
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 150%;
     color: #101010;
@@ -286,10 +267,6 @@ footer {
     height: 14px;
     left: 0px;
     top: 250px;
-    
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #101010;
@@ -307,10 +284,6 @@ ul {
     height:114px;
     top: 55px;
     left:-40px;
-    
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 160%;
     color: #101010;
@@ -323,10 +296,6 @@ ul {
     height:14px;
     left:0px;
     top:55px;
-
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #101010;
@@ -339,10 +308,6 @@ ul {
     height:12px;
     left:0px;
     top:80px;
-
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #101010;
